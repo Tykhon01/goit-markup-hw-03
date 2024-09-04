@@ -10,6 +10,12 @@ a {
 button {
     cursor: pointer;
 }
+body {
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+}
+/* =========== /COMMON STYLES =========== */
+
 /* =========== HEADER STYLES =========== */
 .page-logo {
     font-family: "Raleway", sans-serif;
