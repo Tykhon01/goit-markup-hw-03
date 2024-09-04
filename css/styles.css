@@ -25,6 +25,9 @@ font-weight: 400;
 }
 .intro-section {
     background: #2E2F42;
+    width: 1140px;
+    height: 600px;
+    top: 72px;
 }
 .intro-header {
     font-family: "Roboto", sans-serif;
