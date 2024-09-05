@@ -207,7 +207,7 @@ font-weight: 500;
         height: 312px;
         background: #2e2f42;
 }
-.hage-footer>.page-logo {
+.page-footer > page-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
