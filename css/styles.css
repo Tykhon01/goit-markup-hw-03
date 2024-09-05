@@ -59,6 +59,11 @@ menu-link:focus {
 }
 /* =========== /HEADER STYLES =========== */
 /* =========== MAIN STYLES =========== */
+.main-title {
+    width: 1440px;
+        height: 600px;
+        background: #2e2f42;
+}
 .main-header {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -80,5 +85,7 @@ menu-link:focus {
             height: 56px;
             box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
                 background: #4d5ae5;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                    background: #4d5ae5;
 }
 /* =========== / MAIN STYLES =========== */
