@@ -89,3 +89,81 @@ menu-link:focus {
                     background: #4d5ae5;
 }
 /* =========== / MAIN STYLES =========== */
+/* =========== Our Benefits =========== */
+.benefits-section {
+    width: 1128px;
+        height: 104px;
+}
+.benefits-list-item {
+    display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 8px;
+        width: 264px;
+            height: 104px;
+}
+.benefits-list-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.benefits-list-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/* =========== /Our Benefits =========== */
+/* =========== Our Team Section =========== */
+.our-team {
+    width: 1440px;
+        height: 732px;
+        background: #f4f4fd;
+}
+.our-team-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.our-team-list-item {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        border-radius: 0 0 4px 4px;
+            padding: 0px 0px 32px 0px;
+            width: 264px;
+            height: 380px;
+            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+                background: #fff;
+}
+.our-team-img {
+    width: 264px;
+        height: 260px;
+        background: url("path_to_image");
+}
+.our-team-member {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.our-team-member-profsn {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+/* =========== /Our Team Section =========== */
