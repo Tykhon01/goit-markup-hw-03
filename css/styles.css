@@ -73,8 +73,6 @@ body {
 /* =========== /HEADER STYLES =========== */
 /* =========== MAIN STYLES =========== */
 .main-title {
-    width: 1440px;
-        height: 600px;
         background: #2e2f42;
 }
 .main-header {
@@ -100,18 +98,9 @@ body {
 }
 /* =========== / MAIN STYLES =========== */
 /* =========== Our Benefits =========== */
-.benefits-section {
-    width: 1128px;
-        height: 104px;
-}
 .benefits-list-item {
     display: flex;
-        align-items: flex-start;
         justify-content: flex-start;
-        flex-direction: column;
-        gap: 8px;
-        width: 264px;
-            height: 104px;
 }
 .benefits-list-title {
 font-weight: 500;
@@ -130,8 +119,6 @@ font-weight: 500;
 /* =========== /Our Benefits =========== */
 /* =========== Our Team Section =========== */
 .our-team {
-    width: 1440px;
-        height: 732px;
         background: #f4f4fd;
 }
 .our-team-header {
@@ -139,22 +126,13 @@ font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
 }
 .our-team-list-item {
     display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 32px;
-        border-radius: 0 0 4px 4px;
-            padding: 0px 0px 32px 0px;
-            width: 264px;
-            height: 380px;
-            box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-                background: #fff;
+    justify-content: center;
+    background: #fff;
 }
 .our-team-img {
     width: 264px;
@@ -166,7 +144,6 @@ font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
 }
 .our-team-member-profsn {
@@ -174,7 +151,6 @@ font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #434455;
 }
 /* =========== /Our Team Section =========== */
@@ -184,18 +160,13 @@ font-weight: 500;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
 }
 .our-porfolio-item {
-    width: 360px;
-        height: 420px;
         background: #fff;
 }
 .our-portfolio-img {
-    width: 360px;
-        height: 300px;
         background: url("path_to_image");
 }
 .our-portfolio-header {
@@ -215,8 +186,6 @@ font-weight: 500;
 /* =========== /Our Portfolio Section =========== */
 /* =========== Footer Section =========== */
 .page-footer {
-    width: 1440px;
-        height: 312px;
         background: #2e2f42;
 }
 .page-footer > .page-logo > .text-part{
