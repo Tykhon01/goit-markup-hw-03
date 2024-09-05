@@ -99,8 +99,7 @@ body {
 /* =========== / MAIN STYLES =========== */
 /* =========== Our Benefits =========== */
 .benefits-list-item {
-    display: flex;
-        justify-content: flex-start;
+    justify-content: flex-start;
 }
 .benefits-list-title {
 font-weight: 500;
@@ -130,13 +129,10 @@ font-weight: 500;
         text-transform: capitalize;
 }
 .our-team-list-item {
-    display: flex;
     justify-content: center;
     background: #fff;
 }
 .our-team-img {
-    width: 264px;
-        height: 260px;
         background: url("path_to_image");
 }
 .our-team-member {
