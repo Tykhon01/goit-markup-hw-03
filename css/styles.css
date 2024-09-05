@@ -81,7 +81,7 @@ menu-link:focus {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
@@ -89,10 +89,14 @@ menu-link:focus {
 .order-service-btn {
     display: flex;
     background: #4d5ae5;
+    font-weight: 500;
+    line-height: 1,5;
+    letter-spacing: 0.04;
+    color: #ffffff;
 }
-.order-service-btn:hover
+.order-service-btn:hover, 
 .order-service-btn:focus {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 /* =========== / MAIN STYLES =========== */
 /* =========== Our Benefits =========== */
