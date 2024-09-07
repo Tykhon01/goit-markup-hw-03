@@ -31,8 +31,6 @@ body {
     color: #2e2f42;
 }
 .menu-link {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -43,7 +41,6 @@ body {
     color: #404bbf;
 }
 .page-nav {
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -51,8 +48,6 @@ body {
         color: #2e2f42;
 }
 .adress {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -60,7 +55,6 @@ body {
         font-style: normal; 
 }
 .adress-info {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -76,8 +70,6 @@ body {
         background: #2e2f42;
 }
 .main-header {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
@@ -85,6 +77,7 @@ body {
         color: #fff;
 }
 .order-service-btn {
+    font-family: "Roboto", sans-serif;
     background: #4d5ae5;
     font-weight: 500;
     line-height: 1.5;
@@ -108,7 +101,6 @@ font-weight: 500;
     color: #2e2f42;
 }
 .benefits-list-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -120,7 +112,6 @@ font-weight: 500;
         background: #f4f4fd;
 }
 .our-team-header {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -143,7 +134,6 @@ font-weight: 500;
         color: #2e2f42;
 }
 .our-team-member-profsn {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -152,7 +142,6 @@ font-weight: 500;
 /* =========== /Our Team Section =========== */
 /* =========== Our Portfolio Section =========== */
 .our-portfolio-header {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -174,7 +163,6 @@ font-weight: 500;
         color: #2e2f42;
 }
 .our-portfolio-text {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -195,7 +183,6 @@ font-weight: 500;
         color: #f4f4fd;
 }
 .footer-descr {
-    font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
