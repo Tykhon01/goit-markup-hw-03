@@ -103,10 +103,7 @@ img {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
-        margin-top: 188px;
-        margin-left: 330px;
-        margin-bottom: 48px;
-        margin-right: 330px;
+
 }
 .order-service-btn {
     font-family: "Roboto", sans-serif;
@@ -115,10 +112,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-        border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
+
 }
 .order-service-btn:hover, 
 .order-service-btn:focus {
