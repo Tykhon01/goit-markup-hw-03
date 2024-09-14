@@ -64,11 +64,14 @@ img {
     color: #404bbf;
 }
 .page-nav {
-    font-weight: 500;
+        display: flex;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        justify-content: space-between;
+        align-items: center;
 }
 .adress {
         font-size: 16px;
