@@ -31,9 +31,10 @@ img {
 }
 .container {
         max-width: 1158px;
-        padding: 0 15px;
-        margin: 0 auto;
-        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
 }
 .section {
         padding: 120px 0;
@@ -41,6 +42,9 @@ img {
 /* =========== /COMMON STYLES =========== */
 
 /* =========== HEADER STYLES =========== */
+.page-header {
+        display: flex;
+}
 .page-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -49,9 +53,16 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 .text-part {
     color: #2e2f42;
+}
+.menu {
+        display: flex;
+}
+.menu-item {
+padding: 40px;
 }
 .menu-link {
         font-size: 16px;
@@ -80,11 +91,17 @@ img {
         color: #434455;
         font-style: normal; 
 }
+.adress-ul {
+        display: flex;
+}
 .adress-info {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding: 40px;
+        
+       
 }
 .adress-info:hover, 
 .adress-info:focus {
@@ -94,7 +111,6 @@ img {
 /* =========== MAIN STYLES =========== */
 .main-title {
         background: #2e2f42;
-        width: 1440px;
         height: 600px;
 }
 .main-header {
@@ -120,8 +136,25 @@ img {
 }
 /* =========== / MAIN STYLES =========== */
 /* =========== Our Benefits =========== */
+
+.visually-hidden {
+       position: absolute;
+       width: 1px;
+       height: 1px;
+       margin: -1px;
+       border: 0;
+       padding: 0;
+       white-space: nowrap;
+       clip-path: inset(100%);
+       clip: rect(0 0 0 0);
+       overflow: hidden;
+}
+.benefits-list {
+        display: flex;
+}
 .benefits-list-item {
     justify-content: flex-start;
+    padding: 24px;
 }
 .benefits-list-title {
 font-weight: 500;
@@ -138,8 +171,10 @@ font-weight: 500;
 }
 /* =========== /Our Benefits =========== */
 /* =========== Our Team Section =========== */
-.our-team {
-        background: #f4f4fd;
+.our-team section {
+         background: #f4f4fd;
+         height: 732px;
+
 }
 .our-team-header {
         font-size: 36px;
@@ -148,10 +183,27 @@ font-weight: 500;
         color: #2e2f42;
         text-transform: capitalize;
         text-align: center;
+        margin-top: 120px;
+        margin-bottom: 72px;
+}
+.our-team-list {
+        display: flex;
+        justify-content: center;
+        
 }
 .our-team-list-item {
     justify-content: center;
     background: #fff;
+    display: flex;
+        align-items: center;
+        flex-direction: column;     
+                width: 264px;
+                height: 380px;
+                box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+                0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+                0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        
+                        
 }
 .our-team-img {
         background: url("path_to_image");
@@ -162,12 +214,17 @@ font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-top: 32px;
+        margin-bottom: 8px;
+
 }
 .our-team-member-profsn {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        margin-top: 0;
+        margin-bottom: 32px;
 }
 /* =========== /Our Team Section =========== */
 /* =========== Our Portfolio Section =========== */
