@@ -111,7 +111,7 @@ padding: 40px;
 /* =========== MAIN STYLES =========== */
 .main-title {
         background: #2e2f42;
-        height: 600px;
+        padding: 188px 0;
 }
 .main-header {
         font-size: 56px;
@@ -119,6 +119,10 @@ padding: 40px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
 
 }
 .order-service-btn {
@@ -128,6 +132,12 @@ padding: 40px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 
 }
 .order-service-btn:hover, 
@@ -151,6 +161,8 @@ padding: 40px;
 }
 .benefits-list {
         display: flex;
+        margin-left: auto;
+        margin-right: auto;
 }
 .benefits-list-item {
     justify-content: flex-start;
@@ -168,12 +180,12 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        min-width: 264px;
 }
 /* =========== /Our Benefits =========== */
 /* =========== Our Team Section =========== */
 .our-team section {
          background: #f4f4fd;
-         height: 732px;
 
 }
 .our-team-header {
@@ -188,25 +200,17 @@ font-weight: 500;
 }
 .our-team-list {
         display: flex;
-        justify-content: center;
+       gap: 24px;
         
 }
 .our-team-list-item {
-    justify-content: center;
-    background: #fff;
-    display: flex;
-        align-items: center;
-        flex-direction: column;     
-                width: 264px;
-                height: 380px;
+                background: #fff;
+                width: calc((100% - 72px)/4);
                 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
                 0 1px 1px 0 rgba(46, 47, 66, 0.16), 
                 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         
                         
-}
-.our-team-img {
-        background: url("path_to_image");
 }
 .our-team-member {
     font-weight: 500;
@@ -260,13 +264,16 @@ font-weight: 500;
 .page-footer {
         background: #2e2f42;
 }
-.page-footer > .page-logo > .text-part{
+/*.page-footer > .page-logo > .text-part{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: #f4f4fd;
+}*/
+.text-part-footer {
         color: #f4f4fd;
 }
 .footer-descr {
