@@ -1,9 +1,12 @@
 /* =========== COMMON STYLES =========== */
+*, ::after, ::before {
+        box-sizing: border-box;
+}
 ul, 
 ol {
     list-style-type: none;
     margin: 0;
-    padding-left: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
@@ -43,9 +46,24 @@ img {
 
 /* =========== HEADER STYLES =========== */
 .page-header {
-        display: flex;
+        order-bottom: 1px solid #e7e9fc;
 }
-.page-logo {
+.header-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.page-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.menu {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+}
+.header-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
@@ -53,55 +71,49 @@ img {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+
+        padding: 24px 0;
         margin-right: 76px;
 }
 .text-part {
     color: #2e2f42;
-}
-.menu {
-        display: flex;
-}
-.menu-item {
-padding: 40px;
 }
 .menu-link {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+
+        display: block;
+        padding: 24px 0;
 }
 .menu-link:hover, 
 .menu-link:focus {
     color: #404bbf;
 }
-.page-nav {
-        display: flex;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        justify-content: space-between;
-        align-items: center;
+.menu-link:active {
+        color: #404bbf;
+        text-decoration: underline;
 }
+
 .adress {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
         font-style: normal; 
+        margin-left: auto;
 }
 .adress-ul {
-        display: flex;
+        display: flex; 
+        align-items: center;
+        gap: 40px;
 }
 .adress-info {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
-        padding: 40px;
-        
-       
+        color: #434455;     
 }
 .adress-info:hover, 
 .adress-info:focus {
@@ -163,10 +175,11 @@ padding: 40px;
         display: flex;
         margin-left: auto;
         margin-right: auto;
+        gap: 24px;
 }
 .benefits-list-item {
     justify-content: flex-start;
-    padding: 24px;
+    
 }
 .benefits-list-title {
 font-weight: 500;
@@ -184,7 +197,7 @@ font-weight: 500;
 }
 /* =========== /Our Benefits =========== */
 /* =========== Our Team Section =========== */
-.our-team section {
+.our-team {
          background: #f4f4fd;
 
 }
@@ -195,7 +208,6 @@ font-weight: 500;
         color: #2e2f42;
         text-transform: capitalize;
         text-align: center;
-        margin-top: 120px;
         margin-bottom: 72px;
 }
 .our-team-list {
@@ -227,7 +239,6 @@ font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-top: 0;
         margin-bottom: 32px;
 }
 /* =========== /Our Team Section =========== */
