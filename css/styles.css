@@ -178,6 +178,7 @@ img {
 }
 .benefits-list-item {
   justify-content: flex-start;
+  width: calc((100% - 72) /4);
 }
 .benefits-list-title {
   font-weight: 500;
@@ -185,6 +186,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 .benefits-list-text {
   font-size: 16px;
@@ -215,7 +217,12 @@ img {
   background: #fff;
   width: calc((100% - 72px) / 4);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+}
+.our-tem-list-container {
+  text-align: center;
 }
 .our-team-member {
   font-weight: 500;
